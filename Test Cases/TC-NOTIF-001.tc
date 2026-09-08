@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-NOTIF-001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14a13b17-a768-4bb5-ba7f-e27077d1a79d</testCaseGuid>
+</TestCaseEntity>

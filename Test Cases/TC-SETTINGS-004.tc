@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-SETTINGS-004</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec321459-f4c1-45ef-ae29-6f238a3c8955</testCaseGuid>
+</TestCaseEntity>

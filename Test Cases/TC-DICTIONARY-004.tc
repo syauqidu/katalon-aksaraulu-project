@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi filter Musi Banyuasin menampilkan inventaris varian Musi Banyuasin.</description>
+   <name>TC-DICTIONARY-004</name>
+   <tag>Kamus Aksara Digital</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33cf6b66-3547-4b5f-bafd-818de7393c6f</testCaseGuid>
+</TestCaseEntity>

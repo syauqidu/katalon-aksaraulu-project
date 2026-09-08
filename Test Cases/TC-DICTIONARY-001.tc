@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-DICTIONARY-001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f586909-1481-46ba-ac70-9711980aa8ba</testCaseGuid>
+</TestCaseEntity>

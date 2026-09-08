@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi banner dan 17 kategori wilayah beserta jumlah naskah ditampilkan.</description>
+   <name>TC-CATALOG-001</name>
+   <tag>Katalog Naskah Regional</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>71ac9862-ac36-48f7-9182-6aee3fa59562</testCaseGuid>
+</TestCaseEntity>

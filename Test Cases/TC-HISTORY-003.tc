@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi filter Transliterasi hanya menampilkan riwayat transliterasi dan ringkasan jumlah varian.</description>
+   <name>TC-HISTORY-003</name>
+   <tag>Riwayat &amp; Statistik</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eed2b621-a8e7-4b72-94aa-327e569cb2e5</testCaseGuid>
+</TestCaseEntity>

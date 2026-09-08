@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi tab Riwayat dapat dipilih sebagai partisi navigasi Riwayat.</description>
+   <name>TC-NAV-003</name>
+   <tag>Menu Utama &amp; Navigasi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c491214-7be6-4124-939c-a47f77b3cb86</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi tab Home dapat dipilih sebagai partisi navigasi Home.</description>
+   <name>TC-NAV-002</name>
+   <tag>Menu Utama &amp; Navigasi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7238948-563d-4f8a-aade-c21b9f80246e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi tab Scan dapat dipilih sebagai partisi navigasi Scan.</description>
+   <name>TC-NAV-004</name>
+   <tag>Menu Utama &amp; Navigasi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae6557f0-a481-4a9e-926c-60df3a080c0f</testCaseGuid>
+</TestCaseEntity>

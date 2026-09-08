@@ -1,0 +1,334 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.0.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m58499[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:58499/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://172.23.32.1:58499/wd/hub
+	http://192.168.56.1:58499/wd/hub
+	http://192.168.1.21:58499/wd/hub
+	http://127.0.0.1:58499/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.0.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 4 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Redmi Note 10S","appium:mjpegServerPort":7110,"appium:newCommandTimeout":1800,"appium:platformVersion":"13","appium:systemPort":8265,"appium:udid":"MZT4YXS8DMMB4P6D","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Redmi Note 10S","appium:mjpegServerPort":7110,"appium:newCommandTimeout":1800,"appium:platformVersion":"13","appium:systemPort":8265,"appium:udid":"MZT4YXS8DMMB4P6D","platformName":"ANDROID"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\TUF GAMING\.appium\node_modules\appium-uiautomator2-driver
+[38;5;85m[AppiumDriver@f900][0m Appium v3.0.0 creating new AndroidUiautomator2Driver (v7.0.0) session
+[38;5;85m[AppiumDriver@f900][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;85m[AppiumDriver@f900][0m Appium's BaseDriver version is 10.8.0
+[38;5;85m[AppiumDriver@f900][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Session created with session id: dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\TUF GAMING\.katalon\tools\android_sdk' (newest first):
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m     C:\Users\TUF GAMING\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\TUF GAMING\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Retrieving device list
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Using device: MZT4YXS8DMMB4P6D
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\TUF GAMING\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Relaxing hidden api policy
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\TUF GAMING\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Server packages are not going to be (re)installed
+[38;5;64m[dee3e3d3][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Starting UIAutomator2 server 9.11.2
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Using UIAutomator2 server from 'C:\Users\TUF GAMING\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.11.2.apk' and test from 'C:\Users\TUF GAMING\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m socket hang up
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Determined the downstream protocol as 'W3C'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Screen already unlocked, doing nothing
+[38;5;64m[dee3e3d3][0m[38;5;85m[AppiumDriver@f900][0m New AndroidUiautomator2Driver session created successfully, session dee3e3d3-5e76-497e-b102-14c593f2515b added to master session list
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 2396 ms - 1014
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 404 16 ms - 2630
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 7 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync {"script":"mobile: getSystemBars","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync 200 120 ms - 151
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync {"script":"mobile: activateApp","args":[{"appId":"id.sumsel.kaganga","bundleId":"id.sumsel.kaganga"}]}
+[38;5;64m[dee3e3d3][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync 200 176 ms - 14
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 270 ms - 35482
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1283 ms - 718532
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[1]/android.widget.TextView[4]"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 451 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-17a400000004/click {"id":"00000000-0000-0697-0000-17a400000004"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-17a400000004/click 200 53 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 998 ms - 1106620
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 1062 ms - 15075
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 63 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1194 ms - 1078984
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.widget.TextView"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 98 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-17ec00000004/text 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-17ec00000004/text 200 26 ms - 23
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 93 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1017 ms - 1117560
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 70 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 919 ms - 1117560
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/actions {"actions":[{"id":"finger","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"duration":0,"type":"pause"},{"duration":0,"x":288,"y":1233,"type":"pointerMove","origin":"viewport"},{"button":0,"type":"pointerDown"},{"duration":50,"type":"pause"},{"duration":755,"x":702,"y":1499,"type":"pointerMove","origin":"viewport"},{"button":0,"type":"pointerUp"}]}]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/actions 200 869 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 181 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1100 ms - 1117560
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1002 ms - 1117560
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 1108 ms - 15075
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.widget.Button[2]"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 143 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180100000004/click {"id":"00000000-0000-0697-0000-180100000004"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180100000004/click 200 555 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 157 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1500 ms - 1625068
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 114 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1295 ms - 1625068
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.widget.Button[3]"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 114 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180300000004/click {"id":"00000000-0000-0697-0000-180300000004"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180300000004/click 200 663 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 187 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1277 ms - 1116648
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 85 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 985 ms - 1116648
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/actions {"actions":[{"id":"finger","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"duration":0,"type":"pause"},{"duration":0,"x":427,"y":1182,"type":"pointerMove","origin":"viewport"},{"button":0,"type":"pointerDown"},{"duration":50,"type":"pause"},{"duration":478,"x":608,"y":1312,"type":"pointerMove","origin":"viewport"},{"button":0,"type":"pointerUp"}]}]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/actions 200 582 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 88 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 860 ms - 1146744
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 76 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 821 ms - 1146744
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/actions {"actions":[{"id":"finger","type":"pointer","parameters":{"pointerType":"touch"},"actions":[{"duration":0,"type":"pause"},{"duration":0,"x":242,"y":943,"type":"pointerMove","origin":"viewport"},{"button":0,"type":"pointerDown"},{"duration":50,"type":"pause"},{"duration":335,"x":956,"y":1865,"type":"pointerMove","origin":"viewport"},{"button":0,"type":"pointerUp"}]}]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/actions 200 444 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 55 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 813 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 57 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 919 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 881 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 88 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 913 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 89 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 932 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/i4.y/android.widget.FrameLayout/android.view.View"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 70 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-ffff-ffff00000024/click {"id":"00000000-0000-0697-ffff-ffff00000024"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-ffff-ffff00000024/click 200 69 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 83 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 852 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 78 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 843 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.widget.Button[4]"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 85 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180500000004/click {"id":"00000000-0000-0697-0000-180500000004"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180500000004/click 200 652 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 86 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 962 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 839 ms - 1365580
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 902 ms - 15075
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.widget.Button[2]"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 127 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180100000004/click {"id":"00000000-0000-0697-0000-180100000004"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180100000004/click 200 75 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 97 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1111 ms - 1809916
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 80 ms - 15075
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1033 ms - 1806744
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 272 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/android.widget.Button[2]"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 79 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 0 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180100000004/click {"id":"00000000-0000-0697-0000-180100000004"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-0000-180100000004/click 200 60 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 139 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 1098 ms - 1516220
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 81 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 947 ms - 1515228
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 46
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":0}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/j3.f1/android.view.View/android.view.View/android.view.View/i4.y/android.widget.FrameLayout/android.view.View"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/elements 200 108 ms - 139
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/timeouts 200 1 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-ffff-ffff00000024/click {"id":"00000000-0000-0697-ffff-ffff00000024"}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/element/00000000-0000-0697-ffff-ffff00000024/click 200 46 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 88 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 928 ms - 1515228
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Replacing sessionId 21150cf3-3f83-4e4e-90d3-f2fbe11d25ec with dee3e3d3-5e76-497e-b102-14c593f2515b
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/source 200 69 ms - 15075
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/screenshot 200 995 ms - 1515228
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync {"script":"mobile: getCurrentPackage","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync 200 86 ms - 29
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync {"script":"mobile: terminateApp","args":[{"appId":"id.sumsel.kaganga","bundleId":"id.sumsel.kaganga"}]}
+[38;5;64m[dee3e3d3][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Terminating 'id.sumsel.kaganga'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Querying the state of 'id.sumsel.kaganga'
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m 'id.sumsel.kaganga' has been successfully terminated
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b/execute/sync 200 710 ms - 14
+[38;5;64m[dee3e3d3][0m[38;5;86m[HTTP][0m --> DELETE /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b 
+[38;5;64m[dee3e3d3][0m[38;5;85m[AppiumDriver@f900][0m Removing session dee3e3d3-5e76-497e-b102-14c593f2515b from our master session list
+[38;5;64m[dee3e3d3][0m[38;5;-5m[AndroidUiautomator2Driver@7272][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/dee3e3d3-5e76-497e-b102-14c593f2515b 200 479 ms - 14

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi filter Klasifikasi hanya menampilkan riwayat klasifikasi dan ringkasan akurasinya.</description>
+   <name>TC-HISTORY-002</name>
+   <tag>Riwayat &amp; Statistik</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7c2131e-6792-4c5e-af76-298796cca463</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi filter Muara Enim menampilkan inventaris varian Muara Enim.</description>
+   <name>TC-DICTIONARY-006</name>
+   <tag>Kamus Aksara Digital</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f72f5f1-eeea-4df0-b1d7-176f673b279e</testCaseGuid>
+</TestCaseEntity>

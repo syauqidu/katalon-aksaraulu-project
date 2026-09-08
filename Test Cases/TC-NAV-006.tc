@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi tab Setelan dapat dipilih sebagai partisi navigasi Setelan.</description>
+   <name>TC-NAV-006</name>
+   <tag>Menu Utama &amp; Navigasi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>226002dc-79d4-424f-840b-3e6dabea53a2</testCaseGuid>
+</TestCaseEntity>

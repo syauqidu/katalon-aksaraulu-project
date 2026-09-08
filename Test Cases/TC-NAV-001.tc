@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi komponen dashboard dan lima tab Bottom Navigation ditampilkan.</description>
+   <name>TC-NAV-001</name>
+   <tag>Menu Utama &amp; Navigasi</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>34fab8e8-33bc-45f8-94fd-d8bab6b5200f</testCaseGuid>
+</TestCaseEntity>

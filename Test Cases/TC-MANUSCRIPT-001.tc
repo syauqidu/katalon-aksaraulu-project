@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi halaman detail menampilkan seluruh data artefak yang diwajibkan.</description>
+   <name>TC-MANUSCRIPT-001</name>
+   <tag>Detail Manuskrip Kuno</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4340c4fb-3d52-4d07-8ae0-358d83dcf830</testCaseGuid>
+</TestCaseEntity>
