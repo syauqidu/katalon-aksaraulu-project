@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian Musi Banyuasin tersedia dan dapat dipilih.</description>
+   <name>TC-CANVAS-003</name>
+   <tag>Deteksi Kanvas (Tulis)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37a624de-0250-4619-92b6-652f934ed853</testCaseGuid>
+</TestCaseEntity>

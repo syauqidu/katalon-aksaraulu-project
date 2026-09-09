@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian Default tersedia dan dapat dipilih.</description>
+   <name>TC-GALLERY-003</name>
+   <tag>Deteksi Kanvas (Tulis)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b30efd85-5f30-4318-9bdf-a7b874db330a</testCaseGuid>
+</TestCaseEntity>

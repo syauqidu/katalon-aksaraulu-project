@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi input tepat 200 karakter diterima pada batas maksimum.</description>
+   <name>TC-TRANSLIT-003</name>
+   <tag>Transliterasi Mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b26994fc-32ef-46c0-ab08-3a8579f1e631</testCaseGuid>
+</TestCaseEntity>

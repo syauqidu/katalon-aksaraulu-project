@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi karakter ke-201 tidak membuat input melampaui batas maksimum.</description>
+   <name>TC-TRANSLIT-006</name>
+   <tag>Transliterasi Mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e7dfa3c-e10a-4af5-96cc-4401af9560e3</testCaseGuid>
+</TestCaseEntity>

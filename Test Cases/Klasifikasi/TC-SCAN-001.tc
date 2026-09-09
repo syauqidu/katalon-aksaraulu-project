@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition sumber kamera membuka alur kamera.</description>
+   <name>TC-SCAN-001</name>
+   <tag>Pilihan Input Deteksi</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ccff96a3-9540-4fc3-86d2-2136552f78bf</testCaseGuid>
+</TestCaseEntity>

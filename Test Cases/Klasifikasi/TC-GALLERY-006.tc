@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian Lubuk Linggau tersedia dan dapat dipilih pada alur galeri.</description>
+   <name>TC-GALLERY-006</name>
+   <tag>Deteksi Kanvas (Tulis)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed7ec23f-63d7-4a7d-9f55-4b2e8a7cbc31</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian Default tersedia dan dapat dipilih pada alur galeri.</description>
+   <name>TC-GALLERY-002</name>
+   <tag>Deteksi Galeri (Upload)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d705e1b1-d29c-4813-b531-c08f697f03ff</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi selektor memuat lima varian regional.</description>
+   <name>TC-TRANSLIT-001</name>
+   <tag>Transliterasi Mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ca91553-c6b0-4d61-8387-9e571a3993fc</testCaseGuid>
+</TestCaseEntity>

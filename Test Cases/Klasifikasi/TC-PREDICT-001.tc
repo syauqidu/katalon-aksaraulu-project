@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi layar hasil prediksi menampilkan seluruh komponen hasil AI.</description>
+   <name>TC-PREDICT-001</name>
+   <tag>Hasil Prediksi AI</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdf7667e-cd81-40c3-8b78-d3f2c5e91d7e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi input 199 karakter diterima dan live counter akurat.</description>
+   <name>TC-TRANSLIT-002</name>
+   <tag>Transliterasi Mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21c5db81-0b91-4b03-9bc5-95f207c58771</testCaseGuid>
+</TestCaseEntity>

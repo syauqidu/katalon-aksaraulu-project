@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian OKU Timur tersedia dan dapat dipilih.</description>
+   <name>TC-CANVAS-004</name>
+   <tag>Deteksi Kanvas (Tulis)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8b6e23d-04bc-48cf-8063-c0692b48ffb7</testCaseGuid>
+</TestCaseEntity>

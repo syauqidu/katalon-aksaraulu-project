@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi input 199 karakter diterima dan live counter akurat.</description>
+   <name>TRANSLITERASI_TESTING</name>
+   <tag>Transliterasi Mobile</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8aab7156-5ab7-4620-8785-19168ea9df50</testCaseGuid>
+</TestCaseEntity>

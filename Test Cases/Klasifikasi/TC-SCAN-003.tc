@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition sumber galeri membuka alur galeri.</description>
+   <name>TC-SCAN-003</name>
+   <tag>Pilihan Input Deteksi</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bfdaff9-6426-47d1-8aa4-8992c97a08d7</testCaseGuid>
+</TestCaseEntity>

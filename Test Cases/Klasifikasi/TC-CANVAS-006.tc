@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian Lubuk Linggau tersedia dan dapat dipilih.</description>
+   <name>TC-CANVAS-006</name>
+   <tag>Deteksi Kanvas (Tulis)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdfed10d-abdf-48cf-aa0c-de92392a135a</testCaseGuid>
+</TestCaseEntity>

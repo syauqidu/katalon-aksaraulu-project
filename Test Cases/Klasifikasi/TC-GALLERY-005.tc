@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition varian Muara Enim tersedia dan dapat dipilih pada alur galeri.</description>
+   <name>TC-GALLERY-005</name>
+   <tag>Deteksi Kanvas (Tulis)</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c5c4592-4ab9-453d-ac5f-8e27c74bc7bc</testCaseGuid>
+</TestCaseEntity>

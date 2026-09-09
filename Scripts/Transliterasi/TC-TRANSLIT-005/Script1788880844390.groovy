@@ -20,17 +20,24 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.sumsel.kaganga')
 
-Mobile.scrollToText('Aktivitas Terakhir', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Transliterasi', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('home/heading_aktivitasTerakhir'), 0)
+Mobile.tap(findTestObject('home/card_text_transliterasi'), 0)
 
-Mobile.tap(findTestObject('aktivitas/card_aktivitas_judul_testing'), 0)
+Mobile.verifyElementVisible(findTestObject('transliterasi/h1_transliterasi'), 0)
 
-Mobile.verifyElementVisible(findTestObject('aktivitas/h1_hasil_aksara'), 0)
+Mobile.tap(findTestObject('transliterasi/input_translasi_text'), 0)
 
-Mobile.verifyElementVisible(findTestObject('aktivitas/h2_rangkaian_lengkap'), 0)
+Mobile.sendKeys('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab', 
+    FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('aktivitas/text_hasil_aksara_testing'), 0)
+Mobile.pressBack()
+
+Mobile.verifyElementVisible(findTestObject('transliterasi/text_jumlah_karakter_200'), 0)
+
+Mobile.tap(findTestObject('transliterasi/button_clear'), 0)
+
+Mobile.verifyElementVisible(findTestObject('transliterasi/text_jumlah_karakter_0'), 0)
 
 Mobile.closeApplication()
 

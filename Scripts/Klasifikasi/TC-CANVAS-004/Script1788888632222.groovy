@@ -20,19 +20,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.sumsel.kaganga')
 
-Mobile.tap(findTestObject('navbar/nav_riwayat_text'), 0)
+Mobile.tap(findTestObject('navbar/nav_scan_text'), 0)
 
-Mobile.tap(findTestObject('riwayat/filter_riwayat_semua'), 60)
+Mobile.tap(findTestObject('navbar/heading_scan_tulis'), 60)
 
-Mobile.verifyElementVisible(findTestObject('riwayat/ringkasan_semua'), 60)
+Mobile.verifyElementVisible(findTestObject('deteksi canvas/button_varian_oku'), 60)
 
-Mobile.scrollToText('testing', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('riwayat/card_transliterasi_testing_banyuasin'), 0)
-
-Mobile.scrollToText('pa', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('riwayat/card_klasifikasi_pa_default'), 0)
+Mobile.tap(findTestObject('deteksi canvas/button_varian_oku'), 60)
 
 Mobile.closeApplication()
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi partition sumber kanvas membuka alur kanvas.</description>
+   <name>TC-SCAN-002</name>
+   <tag>Pilihan Input Deteksi</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f2b5d78-7fb4-4307-8604-f1a2f45ea816</testCaseGuid>
+</TestCaseEntity>
