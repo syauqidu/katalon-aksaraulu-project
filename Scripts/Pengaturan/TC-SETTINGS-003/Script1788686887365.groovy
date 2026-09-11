@@ -42,5 +42,9 @@ Mobile.tap(findTestObject('setting/button_simpan_varian'), 60)
 
 Mobile.getText(findTestObject('setting/card_text_musiBanyuasin'), 60)
 
+Mobile.tap(findTestObject('setting/card_text_variandefault'), 60)
+
+Mobile.tap(findTestObject('setting/option_text_default'), 60)
+
 Mobile.closeApplication()
 

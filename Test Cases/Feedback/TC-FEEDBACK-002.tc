@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi koreksi menggunakan kandidat alternatif dikirim ke backend.</description>
+   <name>TC-FEEDBACK-002</name>
+   <tag>Feedback Koreksi AI</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e7d86c7-2ebf-47e5-97bf-4c0a5b742c7e</testCaseGuid>
+</TestCaseEntity>

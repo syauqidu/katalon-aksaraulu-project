@@ -20,31 +20,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.sumsel.kaganga')
 
-Mobile.scrollToText('Transliterasi', FailureHandling.STOP_ON_FAILURE)
+Mobile.swipeWithDuration(265, 1669, 309, 378, 536)
 
-Mobile.tap(findTestObject('home/card_text_transliterasi'), 0)
+Mobile.tap(findTestObject('testing/android.widget.TextView - Sejarah Aksara Ulu'), 60)
 
-Mobile.verifyElementVisible(findTestObject('transliterasi/h1_transliterasi'), 0)
-
-Mobile.tap(findTestObject('transliterasi/input_translasi_text'), 0)
-
-Mobile.tap(findTestObject('transliterasi/opsi_trans_default'), 0)
-
-Mobile.sendKeys('aksara ulu', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('transliterasi/button_transliterasi'), 0)
-
-Mobile.verifyElementVisible(findTestObject('transliterasi/h2_hasilaksara'), 0)
-
-Mobile.tap(findTestObject('transliterasi/button_bagikan'), 60)
-
-Mobile.verifyElementVisible(findTestObject('transliterasi/button_WA'), 60)
-
-Mobile.verifyElementVisible(findTestObject('transliterasi/button_tiktok'), 60)
-
-Mobile.pressBack()
+Mobile.verifyElementVisible(findTestObject('testing/android.widget.TextView - Sejarah Aksara Ulu (1)'), 60)
 
 Mobile.closeApplication()
 

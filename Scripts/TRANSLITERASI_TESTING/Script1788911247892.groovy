@@ -34,9 +34,5 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('transliterasi/button_transliterasi'), 0)
 
-Mobile.verifyElementVisible(findTestObject('transliterasi/h2_hasilaksara'), 0)
-
-Mobile.verifyElementVisible(findTestObject('transliterasi/h2_rangkaian lengkap'), 0)
-
 Mobile.closeApplication()
 

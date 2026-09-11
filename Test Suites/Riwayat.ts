@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Pengaturan Aplikasi</name>
+   <name>Riwayat</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,33 +12,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1c564e57-209a-40b2-a1cc-1feb1a312a5a</testSuiteGuid>
+   <testSuiteGuid>1d1e80bd-7348-47a7-bfff-aa168fd5dffe</testSuiteGuid>
    <testCaseLink>
-      <guid>47f2fb0f-582f-4d07-96da-82bd63a8f131</guid>
+      <guid>c35c9173-427e-45ff-8d2a-e66b01e36f06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-ABOUT-001</testCaseId>
+      <testCaseId>Test Cases/Riwayat/TC-HISTORY-001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b9ed60a-5891-439a-9109-d4ce34d02c43</guid>
+      <guid>892fa9f9-65b0-4434-98ae-4c320a08146b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-FAQ-001</testCaseId>
+      <testCaseId>Test Cases/Riwayat/TC-HISTORY-002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63f738a4-4271-42e8-82de-31822c0dbfb1</guid>
+      <guid>83b9b560-5d3b-4967-82f8-b91113123dfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-SETTINGS-003</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f7c3e98c-a71e-4c2b-bd48-4759ba1b7e2f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-SETTINGS-004</testCaseId>
+      <testCaseId>Test Cases/Riwayat/TC-HISTORY-003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

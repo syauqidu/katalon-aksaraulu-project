@@ -20,31 +20,37 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.sumsel.kaganga')
 
-Mobile.scrollToText('Transliterasi', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('navbar/nav_riwayat_text'), 0)
 
-Mobile.tap(findTestObject('home/card_text_transliterasi'), 0)
+Mobile.tap(findTestObject('riwayat/filter_riwayat_klasifikasi'), 0)
 
-Mobile.verifyElementVisible(findTestObject('transliterasi/h1_transliterasi'), 0)
+Mobile.tap(findTestObject('riwayat/card_judul_pa'), 60)
 
-Mobile.tap(findTestObject('transliterasi/input_translasi_text'), 0)
+Mobile.tap(findTestObject('riwayat/button_kasih_ubah_feedback'), 60)
 
-Mobile.tap(findTestObject('transliterasi/opsi_trans_default'), 0)
+Mobile.getText(findTestObject('riwayat/h2_kasih_feedback'), 60)
 
-Mobile.sendKeys('aksara ulu', FailureHandling.STOP_ON_FAILURE)
+Mobile.getText(findTestObject('riwayat/text_deskripsi_feedback'), 60)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('riwayat/button_opsi_tidak'), 60)
 
-Mobile.tap(findTestObject('transliterasi/button_transliterasi'), 0)
+Mobile.tap(findTestObject('riwayat/opsi_perbaikan_1'), 60)
 
-Mobile.verifyElementVisible(findTestObject('transliterasi/h2_hasilaksara'), 0)
+Mobile.tap(findTestObject('riwayat/opsi_perbaikan_card_1'), 60)
 
-Mobile.tap(findTestObject('transliterasi/button_bagikan'), 60)
+Mobile.tap(findTestObject('riwayat/opsi_perbaikan_manual'), 60)
 
-Mobile.verifyElementVisible(findTestObject('transliterasi/button_WA'), 60)
+Mobile.tap(findTestObject('riwayat/input_opsi_manual'), 60)
 
-Mobile.verifyElementVisible(findTestObject('transliterasi/button_tiktok'), 60)
+Mobile.sendKeys('ba')
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('riwayat/button_kirim_feedback'), 60)
+
+Mobile.tap(findTestObject('riwayat/button_kasih_ubah_feedback'), 60)
+
+Mobile.tap(findTestObject('riwayat/button_opsi_ya'), 60)
+
+Mobile.tap(findTestObject('riwayat/popup_berhasil_kirim'), 60)
 
 Mobile.closeApplication()
 

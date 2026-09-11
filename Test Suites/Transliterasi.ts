@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Pengaturan Aplikasi</name>
+   <name>Transliterasi</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,33 +12,47 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1c564e57-209a-40b2-a1cc-1feb1a312a5a</testSuiteGuid>
+   <testSuiteGuid>88a53b1d-ce4c-4fc3-95b8-3002bd886e69</testSuiteGuid>
    <testCaseLink>
-      <guid>47f2fb0f-582f-4d07-96da-82bd63a8f131</guid>
+      <guid>0e7a2dc5-47bc-4c50-9559-f75c9569a800</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-ABOUT-001</testCaseId>
+      <testCaseId>Test Cases/Transliterasi/TC-TRANSLIT-001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b9ed60a-5891-439a-9109-d4ce34d02c43</guid>
+      <guid>89ffb69e-1222-4dd3-99cd-0cc4b7aed2df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-FAQ-001</testCaseId>
+      <testCaseId>Test Cases/Transliterasi/TC-TRANSLIT-002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63f738a4-4271-42e8-82de-31822c0dbfb1</guid>
+      <guid>08c87261-018a-4200-99f2-4904871246d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-SETTINGS-003</testCaseId>
+      <testCaseId>Test Cases/Transliterasi/TC-TRANSLIT-003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f7c3e98c-a71e-4c2b-bd48-4759ba1b7e2f</guid>
+      <guid>9999f53f-d5ff-4447-88e0-ee041d44d778</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pengaturan/TC-SETTINGS-004</testCaseId>
+      <testCaseId>Test Cases/Transliterasi/TC-TRANSLIT-004</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0614abf0-4986-43ec-b3a0-bc24a04c0082</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Transliterasi/TC-TRANSLIT-005</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3cd84f1-523c-460e-931a-9e7498d7c8e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Transliterasi/TC-TRANSLIT-006</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

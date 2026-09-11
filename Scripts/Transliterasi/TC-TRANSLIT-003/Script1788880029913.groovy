@@ -28,6 +28,8 @@ Mobile.verifyElementVisible(findTestObject('transliterasi/h1_transliterasi'), 0)
 
 Mobile.tap(findTestObject('transliterasi/input_translasi_text'), 0)
 
+Mobile.tap(findTestObject('transliterasi/opsi_trans_default'), 0)
+
 Mobile.sendKeys('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 
     FailureHandling.STOP_ON_FAILURE)
 
